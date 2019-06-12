@@ -6,16 +6,15 @@ public class Student {
     public Student (String name){
         this.name = name;
     }
+    public Student(){
+
+    }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
-    }
-
-    public Student(){
-
     }
 }
